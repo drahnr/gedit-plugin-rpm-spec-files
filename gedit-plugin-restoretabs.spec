@@ -7,12 +7,8 @@ Group:			Applications/Editors
 Source0:		https://github.com/Quixotix/%{name}/archive/master.tar.gz
 Url:			https://github.com/Quixotix/%{name}
 
-BuildRequires:  gnome-doc-utils
-BuildRequires:  intltool
-BuildRequires:  gettext
-BuildRequires:  cairo-devel
-BuildRequires:  atk-devel
 BuildRequires:  python3-gobject
+Requires:		gedit
 
 %description
 Restore tabs plugin for gedit.
