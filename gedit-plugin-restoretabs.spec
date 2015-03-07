@@ -14,7 +14,7 @@ Requires:		gedit
 Restore tabs plugin for gedit.
 
 %prep
-%setup -q -n gedit-restore-tabs-master master.tar.gz
+%setup -q -n %{name}-master master.tar.gz
 
 
 %build

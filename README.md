@@ -6,4 +6,5 @@ A collection of RPM spec files which are not yet packaged in fedora.
 ### List
 
 
-* gedit-plugin-restoretabs
+* gedit-restore-tabs
+* gedit-source-code-browser
